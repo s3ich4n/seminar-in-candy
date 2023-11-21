@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "20231120-fastapi-tracking"
+version = "0.1.0"
+description = ""
+authors = ["Seongeun Yu <s3ich4n@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.104.1"
+uvicorn = {extras = ["standard"], version = "^0.24.0.post1"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
